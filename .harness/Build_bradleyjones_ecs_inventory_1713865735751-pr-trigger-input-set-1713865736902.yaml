@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_bradleyjones_ecs_inventory_1713865735751-pr-trigger-input-set
+  identifier: Build_bradleyjones_ecs_inventory_1713865735751prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_bradleyjones_ecs_inventory_1713865735751
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
